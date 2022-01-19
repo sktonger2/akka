@@ -13,6 +13,7 @@ class AkkaQuickstartSpec extends ScalaTestWithActorTestKit with AnyWordSpecLike 
 
   "A Greeter" must {
     //#test
+    123444
     "reply to greeted" in {
       val replyProbe = createTestProbe[Greeted]()
       val underTest = spawn(Greeter())
