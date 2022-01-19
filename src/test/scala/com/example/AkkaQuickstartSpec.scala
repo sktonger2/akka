@@ -1,4 +1,5 @@
 //#full-example
+// comment added
 package com.example
 
 import akka.actor.testkit.typed.scaladsl.ScalaTestWithActorTestKit
